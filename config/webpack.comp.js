@@ -36,6 +36,7 @@ module.exports = [
   dev('action-menu', 'actionMenu'),
   dev('decrypt-message', 'decryptMessageRoot'),
   dev('editor', 'editorRoot'),
+  dev('encrypted-form', 'encryptedFormRoot'),
   dev('install-landing-page', 'installLandingPage')
 ];
 
@@ -43,6 +44,7 @@ module.exports.prod = [
   prod('action-menu', 'actionMenu'),
   prod('decrypt-message', 'decryptMessageRoot'),
   prod('editor', 'editorRoot'),
+  prod('encrypted-form', 'encryptedFormRoot'),
   prod('install-landing-page', 'installLandingPage')
 ];
 

@@ -25,6 +25,7 @@
     "mailreader": "1.0.0",
     "moment": "2.20.1",
     "ng-tags-input": "3.2.0",
+    "npm": "^5.7.1",
     "openpgp": "2.5.13",
     "prop-types": "15.6.0",
     "qrcodejs": "github:llyys/qrcodejs#98657dab44d520876cfb646c39ebbc43c1594826",
