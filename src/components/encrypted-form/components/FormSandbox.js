@@ -37,7 +37,7 @@ export default class FormSandbox extends React.Component {
 
   createForm() {
     return (
-      <div dangerouslySetInnerHTML={{ __html: this.props.formDefinition }} />
+      <div dangerouslySetInnerHTML={{__html: this.props.formDefinition}} />
     );
   }
 

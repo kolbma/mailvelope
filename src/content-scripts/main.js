@@ -12,6 +12,7 @@ import DecryptFrame from './decryptFrame';
 import VerifyFrame from './verifyFrame';
 import ImportFrame from './importFrame';
 import EncryptFrame from './encryptFrame';
+import * as encryptedForm from './encryptedForm';
 
 const SCAN_LOOP_INTERVAL = 2500; // ms
 const PGP_FOOTER = /END\sPGP/;
@@ -50,6 +51,7 @@ function init(preferences, watchlist) {
 
   if (clientApiActive) {
     // api case
+    encryptedForm.init();
     clientAPI.init();
     return;
   }
